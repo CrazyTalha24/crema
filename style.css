@@ -1,0 +1,51 @@
+/*--------------------------------------------------*/
+/*BASIC SETUP*/
+/*--------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+@import url("../fonts/octin_sports_rg.ttf");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {zoom: 1;}
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+html {
+    font-size: 60%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/*--------------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*--------------------------------------------------*/
+
+section {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
