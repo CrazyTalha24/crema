@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Crema</title>
 </head>
 
@@ -31,7 +35,7 @@
                 ethically sourced beans are roasted to perfection, delivering a rich and flavorful taste that awakens
                 you. Join us on a journey of exceptional coffee, where quality meets comfort, and every sip is a moment
                 of pure delight. Discover your new favorite cup at Crema.</p>
-            <a class="btn" href="">Book a Table</a>
+            <a class="button" href="">Book a Table</a>
         </div>
     </header>
 
@@ -93,7 +97,7 @@
                 innovation. Our journey begins with ethically sourced beans and continues with our meticulous roasting
                 and crafting process. Join us in celebrating the art of coffee and become a part of the Crema community,
                 where every cup tells a story.</p>
-            <a class="btn" href="">Read More</a>
+            <a class="button" href="">Read More</a>
         </div>
     </section>
 
@@ -116,11 +120,115 @@
                 <input type="text" name="" id="" placeholder="ADDITIONAL NOTE">
             </div>
             <div>
-                <a class="btn" href="">SUBMIT</a>
+                <a class="button" href="">SUBMIT</a>
             </div>
         </form>
     </section>
 
+    <section id="testimonial">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <h1>What Our Customers Say</h1>
+                <div class="carousel-item active">
+                    <div class="review">
+                        <div class="review-img">
+                            <img src="images/male-photo1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="review-text">
+                            <h2>John Doe</h2>
+                            <p>"Crema has completely transformed my coffee routine! Their self-roasted beans are
+                                incredibly fresh and flavorful."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="review">
+                        <div class="review-img">
+                            <img src="images/male-photo2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="review-text">
+                            <h2>Ahmed Ali</h2>
+                            <p>"The variety at Crema is amazing! With 15 unique coffee items, I always have something
+                                new and delicious to try."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="review">
+                        <div class="review-img">
+                            <img src="images/male-photo3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="review-text">
+                            <h2>Steve Smith</h2>
+                            <p>"I love the authenticity of Crema's original coffee. It's the perfect start to my day,
+                                every day."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-col">
+                <h2>Contact Us</h2>
+                <div class="contacts">
+                    <ion-icon name="call"></ion-icon>
+                    <p>+92 123 456 789</p>
+                </div>
+                <div class="contacts">
+                    <ion-icon name="location"></ion-icon>
+                    <p>IBA Main Campus, Karachi</p>
+                </div>
+                <div class="contacts">
+                    <ion-icon name="mail"></ion-icon>
+                    <p>crema@mail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-col middle">
+                <h1>Crema</h1>
+                <p>Crafting exceptional coffee experiences, one cup at a time.</p>
+                <div class="socials">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+
+            <div class="footer-col map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14470.849263402002!2d67.1142983!3d24.9418685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338bcd01921f5%3A0x5fd98736c5530784!2sInstitute%20of%20Business%20Administration%2C%20Karachi!5e0!3m2!1sen!2s!4v1718308173286!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024 by Crema. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
