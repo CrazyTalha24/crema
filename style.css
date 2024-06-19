@@ -82,6 +82,8 @@ header {
     padding: 0 50px 50px 50px;
 }
 
+/* Main Navi */
+
 nav {
     padding: 20px 0;
     position: fixed;
@@ -94,7 +96,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 60px;
 }
 
 nav ul {
@@ -104,23 +105,37 @@ nav ul {
     font-size: 15px;
 }
 
-nav a {
+nav li a:link,
+nav li a:visited {
     text-decoration: none;
     color: white;
     border-bottom: 1px transparent;
-    transition: border-bottom 0.15s;
+    transition: border-bottom 0.3s;
 }
 
-nav a:hover {
+nav li a:hover,
+nav li a:active {
     color: white;
     padding-bottom: 5px;
     border-bottom: #ffffff solid 1px;
-
 }
 
 nav h1 {
     font-size: 30px;
 }
+
+/* Sticky Navi */
+
+.sticky {
+    padding: 5px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110%;
+    background-color: rgb(15, 63, 47);
+    box-shadow: 0 2px 5px #092a1f;
+}
+
 
 .hero {
     width: 50%;
