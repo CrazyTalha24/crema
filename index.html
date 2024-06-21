@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <title>Crema</title>
 </head>
@@ -18,16 +22,19 @@
 <body>
 
     <header id="home">
-        <nav>
+        <nav id="navigation">
             <div class="nav-container">
                 <h1 class="logo">Crema</h1>
-                <ul>
+                <ul class="main-nav js--main-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#book">Book</a></li>
                     <li><a href="#testimonial">Testimonials</a></li>
                     <li><a href="#footer">Contact Us</a></li>
                 </ul>
+
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon class="menu-outline" name="menu-outline"></ion-icon></a>
+
             </div>
         </nav>
 
@@ -37,7 +44,7 @@
                 ethically sourced beans are roasted to perfection, delivering a rich and flavorful taste that awakens
                 you. Join us on a journey of exceptional coffee, where quality meets comfort, and every sip is a moment
                 of pure delight. Discover your new favorite cup at Crema.</p>
-            <a class="button" href="">Book a Table</a>
+            <a class="button js--scroll-to-book" href="#">Book a Table</a>
         </div>
     </header>
 
@@ -103,7 +110,7 @@
         </div>
     </section>
 
-    <section id="book">
+    <section id="book" class="js--section-book">
         <form action="">
             <h1>BOOK A TABLE</h1>
             <div>
@@ -203,10 +210,10 @@
                 <h1>Crema</h1>
                 <p>Crafting exceptional coffee experiences, one cup at a time.</p>
                 <div class="socials">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    <ion-icon name="logo-twitter"></ion-icon>
-                    <ion-icon name="logo-pinterest"></ion-icon>
-                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon class="fb" name="logo-facebook"></ion-icon>
+                    <ion-icon class="twitter" name="logo-twitter"></ion-icon>
+                    <ion-icon class="pinterest" name="logo-pinterest"></ion-icon>
+                    <ion-icon class="insta" name="logo-instagram"></ion-icon>
                 </div>
             </div>
 
@@ -231,8 +238,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="jquery.waypoints.min.js"></script>
     <script src="script.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
 </body>
 
 </html>
