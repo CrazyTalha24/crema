@@ -327,6 +327,9 @@ form input:focus {
 /*TESTIMONIAL*/
 /*--------------------------------------------------*/
 
+#testimonial {
+    height: 75vh;
+}
 
 #testimonial h1 {
     text-align: center;
